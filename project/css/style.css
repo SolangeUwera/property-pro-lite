@@ -67,9 +67,8 @@ position: relative;
     font-size: 2em;
     
 }
-
-
-
+.link { color:#ffffff;
+    text-decoration:none;}
 header{
     height: 100px;
     background: #4e6e81;
