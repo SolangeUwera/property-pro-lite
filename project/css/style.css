@@ -37,9 +37,9 @@
    
 }.order{font-size:25px;}
 nav ul  {
-display: flex;
-list-style: none;
-justify-content: space-around;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 width: 60%;
 position: relative;
     }
