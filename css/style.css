@@ -259,19 +259,10 @@ ul {
 border-radius: 5px;
 width:45%;
 }
-.image5{
-    border-radius: 5px;
-    width:45%;
-    }
     .image5{
         border-radius: 5px;
         width:45%;
         }
-button .delete{
-    background:#504192;
-    width: 30%;
-    height: 50%;
-}
 .servicep {
 width:100%;
 }
@@ -281,4 +272,12 @@ width:100%;
      margin-top:3%;
      border:0;
 }
+.twobd{ 
+    display:inline-flex;
+    margin-left:3px;
+    margin-right: 3px;
+}
 
+.threebd{ display:inline-flex;
+    margin-left:3px;
+    margin-right: 3px;}
