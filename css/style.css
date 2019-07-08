@@ -233,7 +233,7 @@ text-align: left; }
     margin-right:15%;
 }
 .property5{
-    background: #1d53;
+    background: #454545;
     height:5em;
 }
 .property6{
@@ -244,6 +244,7 @@ text-align: left; }
 }
 a {
     text-decoration: none;
+    color:#ffffff;
 }
 ul {
     list-style-type: none;
@@ -259,10 +260,6 @@ ul {
 border-radius: 5px;
 width:45%;
 }
-    .image5{
-        border-radius: 5px;
-        width:45%;
-        }
 .servicep {
 width:100%;
 }
@@ -277,7 +274,19 @@ width:100%;
     margin-left:3px;
     margin-right: 3px;
 }
-
 .threebd{ display:inline-flex;
     margin-left:3px;
     margin-right: 3px;}
+    @media only screen and (min-width:250px) and (max-width:700px){
+       
+        #sup{
+            width:100%;}
+            sup{
+                width:100%;}
+            header{width:100%;}nav ul  {width:100%;
+                }
+                form{  width:100%;}
+                label{  width:100%;}
+            body{  width:100%;   }  
+             
+    }
