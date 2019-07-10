@@ -16,8 +16,13 @@
             margin: auto;
             overflow: hidden;
         }
-       p{ font-size:15px;} 
-       .containeri1{ font-size:15px;} 
+        p{font-size:25px;}
+       .p1{ font-size:25px;
+        margin-left:-15%;
+    }     .p2{font-size:25px;
+        margin-left:70%;
+    } 
+       .containeri1{ font-size:19px;} 
         .button1 {
             height:50px;
             width:20%;
@@ -63,14 +68,16 @@ position: relative;
    
 }
 
-.bed07{font: 1em sans-serif;}
+.bed07{margin-left:-15%;font: 1em sans-serif;}
 .logo h3{
-    font-size: 2em;
+    font-size: 1.5em;
     }
-.bed08{font: 1em sans-serif;}
-.link { color:#050505;
+.bed08{ margin-top:10%; margin-left:70%;font: 1em sans-serif;}
+.link { margin-left:-20%;
+    color:#050505;
     text-decoration:none;}
 header{
+    border-bottom:1px solid black;
     height: 100px;
     padding-top: 15px;
 }
@@ -92,11 +99,13 @@ header{
             margin-bottom: 10px;
         }
         #image {
+            margin-left:-20%;
             width: 180px;
             height: 180px;
-            border-radius: 90px;
-            
-        }
+            border-radius: 90px;}
+         #imagep {margin-left:85%;  width: 180px;
+            height: 180px;
+            border-radius: 90px;}  
         #prop h1 {
             font-size: 25px;
         }
@@ -113,6 +122,7 @@ header{
             float:left;
         }
         footer {
+            margin-left: -10%;
             font-size:40px;
             padding: 20px;
             margin-top: 0px;
@@ -159,7 +169,7 @@ header{
             margin-right: 70%;
             margin-left: 20%;}
                 #sup{
-                    margin-top:0%;
+                    margin-top:5%;
                     padding:25px;
                     width:50%;
                     height: 35em;
@@ -167,7 +177,7 @@ header{
                     margin-left:20%;
                 }
                 #sup form {
-                    margin-top:0%;
+                    margin-top:5%;
                     margin-left: 20%;
                     margin-right: 30%;
                     width:40em;}
@@ -223,7 +233,8 @@ text-align: left; }
     border:0; 
 }
 .property5{
-    background: #edeae5;;
+    margin-top: 2%;    
+    background: #edeae5;
     height:5em;
 }
 .property6{
@@ -245,7 +256,8 @@ ul {
     background:#edeae5;}
 .property7{background:#edeae5;}
 .servicep {
-width:100%;
+    height:50%;
+width:70%;
 }
 .video{
     width:100%; 
