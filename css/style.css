@@ -6,7 +6,7 @@
         }
         body {
             font: 15px/1.5 arial, helvetica, sans-serif;
-            margin: 0;
+            margin: 20px;
             padding: 0;
             background: #edeae5;
             border-radius: 60px;
@@ -119,6 +119,7 @@ header{
             justify-content: space-around;
         }
         #prope .order .game{
+           
             float:left;
         }
         footer {
