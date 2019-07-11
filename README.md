@@ -38,5 +38,32 @@ User can view a specific property advert.
  # code examples
 
  # installations
+ 
+ # THE END POINTS OF THE PROJECT
+- HTTP MEHOD	ENDPOINTS	ACCESS	DESCRIPTION
+- POST	/api/v1/auth/signup	public	create an account
+- POST	/api/v1/auth/signin	public	login to the app
+- POST	/api/v1/property/	private(user)	create property adrvert
+- GET	/api/v1/property/	public	get all property
+- GET	/api/v1/property/id	public	get specific property
+- POST	/api/v1/property_id/flags	public	post a flag
+- GET	/api/v1/flags	public	get all flags
+- GET	/api/v1/property/:id/flags	public	get flags of specific property
+- GET	/api/v1/flags/id	public	get a specific flags
+- GET	/api/v1/users	public	get all users
+- GET	/api/v1/users/id	public	get a specific user
 
+# Frontend
+- HTML
+- CSS 
+- Javascript
+# Backend
+- NodeJs
+Express JS
+Mocha
+Chai
+OTHER TOOLS USED IN THIS PROJECT
+Linter
+ESLint - Linter Tool
+Style Guide
 
