@@ -26,9 +26,9 @@ User can view all properties of a specific type - 2 bedroom, 3 bedroom, mini fla
 User can view a specific property advert. 
 
 # optional feature
-- User can reset password.
 - flag/report a posted AD as fraudulent. 
-- User can add multiple pictures to a posted ad. 
+- User can add multiple pictures to a posted ad.
+- User can reset password.
 - The application should display a Google Map with Marker showing the red-flag or intervention location. -
  
  # Build status
@@ -59,11 +59,9 @@ User can view a specific property advert.
 - Javascript
 # Backend
 - NodeJs
-Express JS
-Mocha
-Chai
-other tolls used in this project 
-Linter
-ESLint - Linter Tool
-Style Guide
+- Express JS
+- Mocha
+-Chai
 
+# Author:
+ -  UWERA Solange 
