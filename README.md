@@ -62,7 +62,7 @@ User can view a specific property advert.
 Express JS
 Mocha
 Chai
-OTHER TOOLS USED IN THIS PROJECT
+other tolls used in this project 
 Linter
 ESLint - Linter Tool
 Style Guide
