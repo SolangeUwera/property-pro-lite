@@ -1,5 +1,6 @@
 # Property-pro-lite
 Property Pro Lite is a platform where people can create and/or search properties for sale or rent.
+- Hosted UI link https://solangeuwera.github.io/property-pro-lite/
 
 # Motivation
  property pro lite is  avery good project, i worked on it being more concetrated, because can be importanta to more people than i can think now. is the project that can exist for so long and work for long. people can sale and rent properties .
@@ -12,6 +13,10 @@ Property Pro Lite is a platform where people can create and/or search properties
  
  # Tech/Frame work used
  build with VS code
+ 
+  # code examples
+
+ # installations
  
  # Required Feature
  
@@ -29,15 +34,11 @@ User can view a specific property advert.
 - flag/report a posted AD as fraudulent. 
 - User can add multiple pictures to a posted ad.
 - User can reset password.
-- The application should display a Google Map with Marker showing the red-flag or intervention location. -
- 
+- The application should display a Google Map with Marker showing the red-flag or intervention location. 
+
  # Build status
 
  # screenshoot
-
- # code examples
-
- # installations
  
  # THE END POINTS OF THE PROJECT
 - HTTP MEHOD	ENDPOINTS	ACCESS	DESCRIPTION
