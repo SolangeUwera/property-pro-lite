@@ -55,6 +55,26 @@ static updatePost(req, res) {
           error: "post cannot be updated"
         });
       }
-    }
 }
+      static deletePost(req, res) {
+            let { id } = req.params;
+            const findPost = properties.find(post => {
+              return post.id == id;
+            });
+            if (findPost) {
+              const newPosts = properties.filter(post => {
+                return post !== findPost;
+              });
+              res.status(200).json({
+                message: "post successfully deleted",
+                prperties: newPosts
+              });
+            } else {
+              res.status(400).json({
+                error: "could not delete a post"
+              });
+            }
+          }
+        }
+    
 export default propertiesController;
