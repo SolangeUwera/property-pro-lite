@@ -52,7 +52,7 @@ static updatePost(req, res) {
         });
       } else {
         res.status(400).json({
-          error: "property cannot be updated"
+          error: "property can not be updated"
         });
       }
 }
