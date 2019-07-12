@@ -13,7 +13,7 @@ class propertiesController {
            if (findproperty) {
                return res.status(200).json({
                      property: findproperty,
-                     message: "A single property record record",
+                     message: "A single property record",
                });
            }
            return res.status(404).json({
@@ -38,7 +38,7 @@ class propertiesController {
       };
       properties.push(newPost);
       return res.status(200).json({
-        message: "created a new post"
+        message: "created a new property"
       });
 }
 static updatePost(req, res) {
@@ -52,7 +52,7 @@ static updatePost(req, res) {
         });
       } else {
         res.status(400).json({
-          error: "post cannot be updated"
+          error: "property cannot be updated"
         });
       }
 }
@@ -66,12 +66,12 @@ static updatePost(req, res) {
                 return post !== findPost;
               });
               res.status(200).json({
-                message: "post successfully deleted",
+                message: "property successfully deleted",
                 prperties: newPosts
               });
             } else {
               res.status(400).json({
-                error: "could not delete a post"
+                error: "could not delete a property"
               });
             }
           }
