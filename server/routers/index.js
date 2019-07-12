@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import propertyController from '../controllers/propertyController.js';
+import propertiesController from '../controllers/propertiesController.js';
 const routes = Router();
-routes.get('/', propertyController.getAll);
-routes.get('/:id', propertyController.getSingle);
+routes.get('/', propertiesController.getAll);
+routes.get('/:id', propertiesController.getSingle);
+routes.post("/api/v1/posts", propertiesController.Add);
 export default routes;

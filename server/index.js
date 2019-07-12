@@ -4,7 +4,7 @@ import routes from './routers/index.js';
 // Instantiate express
 const app = express();
 // Set our port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4500;
 // Configure app to user bodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

@@ -20,5 +20,28 @@ class propertiesController {
                  message: "property record not found",
            });
     }
+    
+    static Add(req, res) {
+      const newId = parseInt(properties.length) + 1;
+      const {  
+             id=newId,
+            owner,
+            status,
+            price,
+            state,city,type, body } = req.body;
+      const newPost = {
+        id: newId,
+            owner,
+            status,
+            price,
+            city,state,type, body,
+      };
+      properties.push(newPost);
+      return res.status(200).json({
+        message: "created a new post"
+      });
+}
+
+
 }
 export default propertiesController;
