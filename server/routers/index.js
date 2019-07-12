@@ -1,6 +1,6 @@
-import express from "express";
-import   propertyRoutes  from '../routers/propertyRoutes';
-const router = express.Router();
-
-router.use(router);
-export default router;
+import { Router } from 'express';
+import propertyController from '../controllers/propertyController.js';
+const routes = Router();
+routes.get('/', propertyController.getAll);
+routes.get('/:id', propertyController.getSingle);
+export default routes;
