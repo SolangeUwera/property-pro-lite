@@ -15,13 +15,15 @@ Property Pro Lite is a platform where people can create and/or search properties
 
 
  # Tech/Frame work used
- build with VS code
-
- # Build status
-
-
+ - mocha 
+ - node js
+ - express js
 
  # screenshoot
+![sss](https://user-images.githubusercontent.com/50421204/61154314-a5831800-a4a2-11e9-95cf-4b1eeecb798a.PNG)
+![Capture1](https://user-images.githubusercontent.com/50421204/61168655-4b1ba300-a506-11e9-8839-eb3e03c97e3c.PNG)
+![Captured](https://user-images.githubusercontent.com/50421204/61168656-4bb43980-a506-11e9-8f89-f9bc82d91e61.PNG)
+![Capturel](https://user-images.githubusercontent.com/50421204/61168657-4bb43980-a506-11e9-8063-81c9abed44e1.PNG)
 
 
 
@@ -201,14 +203,7 @@ Property Pro Lite is a platform where people can create and/or search properties
 
  - </body>
 
- - </html> 
-
-
-
-
-
-
- # installations
+ - </html>
 
  
  # Tech/Frame work used
@@ -233,18 +228,13 @@ Property Pro Lite is a platform where people can create and/or search properties
 - The application should display a Google Map with Marker showing the red-flag or intervention location. 
  
  # THE END POINTS OF THE PROJECT
-- HTTP MEHOD	ENDPOINTS	ACCESS	DESCRIPTION
-- POST	/api/v1/auth/signup	public	create an account
-- POST	/api/v1/auth/signin	public	login to the app
-- POST	/api/v1/property/	private(user)	create property adrvert
+
+- POST	/api/v1/property/	create property adrvert
 - GET	/api/v1/property/	public	get all property
 - GET	/api/v1/property/id	public	get specific property
-- POST	/api/v1/property_id/flags	public	post a flag
-- GET	/api/v1/flags	public	get all flags
-- GET	/api/v1/property/:id/flags	public	get flags of specific property
-- GET	/api/v1/flags/id	public	get a specific flags
-- GET	/api/v1/users	public	get all users
-- GET	/api/v1/users/id	public	get a specific user
+- DELETE	/api/v1/property/id	public	delete specific property
+- PUT	/api/v1/property/id	public	update specific property
+
 
 # Frontend
 - HTML
