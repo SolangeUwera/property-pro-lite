@@ -18,9 +18,9 @@
         }
         p{font-size:25px;}
        .p1{ font-size:25px;
-        margin-left:-15%;
+        margin-left:0%;
     }     .p2{font-size:25px;
-        margin-left:70%;
+        margin-left:50%;
     } 
        .containeri1{ font-size:19px;} 
         .button1 {
@@ -68,15 +68,18 @@ position: relative;
    
 }
 
-.bed07{margin-left:-15%;font: 1em sans-serif;}
+.bed07{margin-top:10%;margin-left:-15%; font-size:1em sans-serif;}
 .logo h3{
     font-size: 1.5em;
     }
-.bed08{ margin-top:10%; margin-left:70%;font: 1em sans-serif;}
+.bed08{ margin-top:10%; margin-left:50%; font: 1em sans-serif;}
 .link { margin-left:-20%;
     color:#050505;
     text-decoration:none;}
 header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
     border-bottom:1px solid black;
     height: 100px;
     padding-top: 15px;
@@ -99,11 +102,11 @@ header{
             margin-bottom: 10px;
         }
         #image {
-            margin-left:-20%;
+            margin-left:0%;
             width: 180px;
             height: 180px;
             border-radius: 90px;}
-         #imagep {margin-left:85%;  width: 180px;
+         #imagep {margin-left:45%;  width: 180px;
             height: 180px;
             border-radius: 90px;}  
         #prop h1 {
@@ -119,7 +122,7 @@ header{
             justify-content: space-around;
         }
         #prope .order .game{
-           
+            margin-left:-20%;
             float:left;
         }
         footer {
@@ -129,8 +132,11 @@ header{
             margin-top: 0px;
             color: #ffffff;
                 display: flex;
-                justify-content: space-around;     
-            }
+                justify-content: space-around; 
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+             }    g
         #pros
         {
             background:gray;
