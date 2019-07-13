@@ -17,13 +17,6 @@ Property Pro Lite is a platform where people can create and/or search properties
  # Tech/Frame work used
  build with VS code
 
- # Feature
- Doing a Class Project
- writting about my project
- using scientific method
- using well and organized display
- respond according what user ask. 
-
  # Build status
 
 
@@ -34,46 +27,46 @@ Property Pro Lite is a platform where people can create and/or search properties
 
  # code examples
  
-  import { Router } from 'express';
-import propertiesController from '../controllers/propertiesController.js';
-const routes = Router();
-routes.get('/', propertiesController.getAll);
-routes.get('/:id', propertiesController.getSingle);
-routes.post("/api/v1/posts", propertiesController.Add);
-routes.put("/api/v1/posts/:id", propertiesController.updatePost);
-routes.delete("/api/v1/posts/:id", propertiesController.deletePost);
-export default routes;
+- import { Router } from 'express';
+- import propertiesController from '../controllers/propertiesController.js';
+- const routes = Router();
+- routes.get('/', propertiesController.getAll);
+- routes.get('/:id', propertiesController.getSingle);
+- routes.post("/api/v1/posts", propertiesController.Add);
+- routes.put("/api/v1/posts/:id", propertiesController.updatePost);
+- routes.delete("/api/v1/posts/:id", propertiesController.deletePost);
+- export default routes;
 
 
-import express from 'express';
-import bodyParser from 'body-parser';
-import routes from './routers/index.js';
-// Instantiate express
-const app = express();
-// Set our port
-const port = process.env.PORT || 4500;
-// Configure app to user bodyParser
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-// Register our routes in app
-app.use('/', routes);
-// Start our server
-app.listen(port, () => {
-    console.log(`Server started on port ${port}`);
+- import express from 'express';
+- import bodyParser from 'body-parser';
+- import routes from './routers/index.js';
+- // Instantiate express
+- const app = express();
+- // Set our port
+- const port = process.env.PORT || 4500;
+- // Configure app to user bodyParser
+- app.use(bodyParser.urlencoded({ extended: true }));
+- app.use(bodyParser.json());
+- // Register our routes in app
+- app.use('/', routes);
+- // Start our server
+- app.listen(port, () => {
+    - console.log(`Server started on port ${port}`);
     
-});
-// Export our app for testing purposes
-export default app;
+- });
+- // Export our app for testing purposes
+- export default app;
 
 
 
 
-import properties  from '../models/propertiesmodel.js';
-class propertiesController {
-    // Get all all properties
-    static getAll(req, res) {
-          return res.status(200).json({
-                properties,
+- import properties  from '../models/propertiesmodel.js';
+- class propertiesController {
+   -  // Get all all properties
+   -  static getAll(req, res) {
+        return res.status(200).json({
+              -   properties,
                 message: "All the properties",
           });
     }
@@ -238,11 +231,6 @@ export default propertiesController;
 - User can add multiple pictures to a posted ad.
 - User can reset password.
 - The application should display a Google Map with Marker showing the red-flag or intervention location. 
-
- # Build status
-
-
- # screenshoot
  
  # THE END POINTS OF THE PROJECT
 - HTTP MEHOD	ENDPOINTS	ACCESS	DESCRIPTION
